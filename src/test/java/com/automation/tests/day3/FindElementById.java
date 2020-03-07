@@ -41,6 +41,13 @@ public class FindElementById {
         logout.click();
         Thread.sleep(2000);
 
+        // let's invalid credentials
+        driver.findElement(By.name("username")).sendKeys("wrong");
+        driver.findElement(By.name("password")).sendKeys("wrong");
+        driver.findElement(By.id("wooden_spoon")).click();
+
+        Thread.sleep(2000);
+        
 
 
 
