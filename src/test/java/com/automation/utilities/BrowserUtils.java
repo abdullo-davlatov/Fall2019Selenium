@@ -7,19 +7,21 @@ import java.util.List;
 
 public class BrowserUtils {
 
-    public static void wait(int seconds){
+    /**
+     * Pause test for some time
+     *
+     * @param seconds
+     */
+    public static void wait(int seconds) {
         try {
             Thread.sleep(1000 * seconds);
         } catch (InterruptedException e) {
             e.printStackTrace();
-
-            }
+        }
     }
-
-
-    public static List<String> getTextFromWebElements(List<WebElement> elements){
+    public static List<String> getTextFromWebElements(List<WebElement> elements) {
         List<String> textValues = new ArrayList<>();
-        for (WebElement element : elements){
+        for (WebElement element : elements) {
             textValues.add(element.getText());
         }
         return textValues;
