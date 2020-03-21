@@ -1,4 +1,4 @@
-package com.automation.tests.OfficeHours;
+package com.automation.tests.officeHours;
 
 import java.util.*;
 

@@ -1,7 +1,4 @@
-package com.automation.tests.OfficeHours;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
+package com.automation.tests.officeHours;
 
 import java.util.ArrayList;
 import java.util.HashMap;
